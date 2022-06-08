@@ -1,0 +1,14 @@
+<h1>Inside App Component</h1>
+<!-- <h1>{{Villages[0]}}</h1>
+<h1>{{Villages[1]}}</h1>
+<h1>{{Villages[2]}}</h1>
+<h1>{{Villages[3]}}</h1>
+<h1>{{Villages[4]}}</h1>
+
+<div *ngFor="let village of Villages;index as i">
+  <h1>{{i+1}}:{{village}}</h1>
+</div> -->
+<div *ngFor="let village of Villages;index as i">
+  <h1>{{village[i]}}</h1>
+
+</div>
