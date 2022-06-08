@@ -1,0 +1,18 @@
+<h1>Inside App Component</h1>
+<ng-template #Veg>
+  <h1>VegFoodMenu</h1>
+<h1>paneer</h1>
+<h1>Bhendi</h1>
+<h1>Daltadka</h1>
+</ng-template>
+
+
+<ng-template #Nonveg>
+  <h1>Non-VegFoodMenu</h1>
+<h1>Chicken</h1>
+<h1>Chickentikka</h1>
+<h1>Chicken65</h1>
+</ng-template>
+
+
+<div *ngIf="Food;then Veg;else Nonveg"></div>
